@@ -21,7 +21,12 @@ export default {
   //     changeOrigin: true,
   //   },
   // },
-
+  // dev:{
+  //   https:{
+  //   key:fs.readFileSync('./mkcert/server.key'),
+  //   cert:fs.readFileSync('./mkcert/server.crt')
+  //   }
+  // },
   /**
    * @name 详细的代理配置
    * @doc https://github.com/chimurai/http-proxy-middleware
